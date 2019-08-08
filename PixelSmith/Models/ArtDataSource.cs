@@ -7,7 +7,7 @@ namespace Models
 	public class ArtDataSource
 	{
 
-		public static string GetDailyArtQuote(int quoteID)
+		public static string GetTheDailyArtQuote(int quoteID)
 		{
 
 			switch (quoteID)
@@ -27,6 +27,7 @@ namespace Models
 		}
 		public static List<ArtProject> GetArtProjects()
 		{
+            // Added a comment
 			var temp = new List<ArtProject>();
 			ArtProject art = null;
 
