@@ -16,9 +16,7 @@ namespace Models
 					return "You don’t take a photograph, you make it. - Ansel Adams";
 				case 2:
 					return "Creativity takes courage. - Henri Matisse";
-                case 3:
-                    return "The purpose of art is washing the dust of daily life off our souls. - Pablo Picasso";
-                default:
+				default:
 					return "Painting is easy when you don’t know how, but very difficult when you do. - Edgar Degas.";
 
 
