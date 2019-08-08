@@ -25,7 +25,7 @@ namespace Models
 			}
 
 		}
-		public static List<ArtProject> GetArtProjects()
+		public static List<ArtProject> GetTheArtProjects()
 		{
             // Added a comment
 			var temp = new List<ArtProject>();
