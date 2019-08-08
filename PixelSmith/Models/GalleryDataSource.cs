@@ -7,7 +7,7 @@ namespace Models
 	public class ArtDataSource
 	{
 
-		public static string GetDailyArtQuote(int quoteID)
+		public static string GetTheDailyArtQuote(int quoteID)
 		{
 
 			switch (quoteID)
@@ -16,18 +16,24 @@ namespace Models
 					return "You don’t take a photograph, you make it. - Ansel Adams";
 				case 2:
 					return "Creativity takes courage. - Henri Matisse";
-				default:
+                case 3:
+                    return "The purpose of art is washing the dust of daily life off our souls. - Pablo Picasso";
+                case 4:
+                    return "Every artist was first an amateur. - Ralph Waldo Emerson";
+                default:
 					return "Painting is easy when you don’t know how, but very difficult when you do. - Edgar Degas.";
 
 
 			}
 
 		}
-		public static List<ArtProject> GetArtProjects()
+		public static List<ArtProject> GetTheArtProjects()
 		{
+            // Added a comment
 			var temp = new List<ArtProject>();
 			ArtProject art = null;
 
+            // New comment
 
 			art = new ArtProject {ArtName = "Clarity at Dawn", Price = 1450M, ForSale = false, Image = "Images/abstractArt01.png"};
 			temp.Add(art);
