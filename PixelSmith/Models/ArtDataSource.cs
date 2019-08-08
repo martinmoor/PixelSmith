@@ -31,6 +31,7 @@ namespace Models
 			var temp = new List<ArtProject>();
 			ArtProject art = null;
 
+            // New comment
 
 			art = new ArtProject {ArtName = "Clarity at Dawn", Price = 1450M, ForSale = false, Image = "Images/abstractArt01.png"};
 			temp.Add(art);
